@@ -12,3 +12,5 @@ The image is based on `python:3` and contains:
 See also:
 
   * https://github.com/takumaw/sphinx-docker-sample
+
+License: MIT
