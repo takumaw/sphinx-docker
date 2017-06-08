@@ -1,7 +1,9 @@
 FROM python:3
 
+ENV SPHINX_VERSION 1.6.2
+
 RUN set -ex \
-      pip install Sphinx==1.6.2
+      pip install Sphinx==$SPHINX_VERSION
 
 WORKDIR /usr/local/src/doc
-ENTRYPOINT ["/bin/bash"]
+CMD ["/bin/bash"]
