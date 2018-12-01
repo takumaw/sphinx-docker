@@ -1,6 +1,6 @@
 FROM python:3
 
-ENV SPHINX_VERSION 1.7.7
+ENV SPHINX_VERSION 1.7.8
 
 RUN set -ex \
     && pip3 install Sphinx==$SPHINX_VERSION
